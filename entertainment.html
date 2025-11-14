@@ -1,78 +1,123 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Entertainment</title>
-  <link rel="stylesheet" href="hinterlaanden.css">
+    <title>Entertainment</title>
+      <link rel="stylesheet" type="text/css" href="hinterlaanden.css">
 </head>
 <body>
+    <style>
+      body{
+      background-color:#BE3144;
+		  margin: 0; 
+		  padding: 0; 
 
-  <div class="topbar">
-    <div class="logo">
-      <a href="index.html"><img src="image.png"></a>
-    </div>
-    <a href="index.html" class="publication"><b>THE STEAMBIRD</b></a>
-    <div class="top-right">
-      <a href="#" class="search-icon"><img src="Search-Button-White-PNG.png"></a>
-    </div>
+      #newssection{
+      display: flex;
+      justify-content: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      gap: 40px;
+      margin-top: 40px;
+      margin-bottom: 90px;
+      }
+
+      .newsarticle{
+      background-color: #EEE7CA;
+      opacity: 1;
+      border: 1px solid transparent;
+      border-radius: 15px;
+      width: 40%;
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #2F1B41;
+      padding: px;
+      }
+
+      .newsarticle h1{
+        font-size: 18px;
+      }
+
+      .newsarticle h2{
+        font-size: 14px;
+      }
+
+      .newsarticle a{
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .newsarticle img{
+      border-radius:10px;
+			width: 100%;
+			height: 240px;
+			display:block;
+      }
+
+      .row{
+      margin-left: 10px;
+      padding: 40px 20px;
+	  margin-left: 0px;
+	  padding:0;
+	  margin-right:5px;
+	  margin-left:0px;
+      }
+
+      .frontpage{
+      width: 1350px;
+      height: 560px;
+      }
+
+    </style>
+
+    <div class="topbar">
+      <div class="logo"><a href="index.html"><img src="image.png"></a></div>
+        <a href="index.html" class="publication"><b>THE STEAMBIRD</b></a>
+          <div class="top-right">
+            <a href="#" class="search-icon">
+                <img src="Search-Button-White-PNG.png">
+            </a>
+          </div>
   </div>
-
-  <div class="category-menu">
-    <a href="NewsSection.html"><b>NEWS</b></a>
-    <a href="Entertainment.html"><b>ENTERTAINMENT</b></a>
-    <a href="SportSection.html"><b>SPORTS</b></a>
-    <a href="#"><b>OPINION</b></a>
-    <a href="#"><b>CARTOONS</b></a>
-    <a href="#"><b>FASHION</b></a>
-  </div>
-
-<h1 class="page-news" style="color:#FFFED1;">ENTERTAINMENT</h1>
-
-  <div class="containerfrontpage">
-    <div class="frontpage">
-
-      <div class="newssection">
-        <div class="newsarticle">
-          <a href="FilipinoCaregivers.html">
-            <img src="Thumbnail--840x473.png">
-            <h1>Filipino caregivers in the US decry labor exploitation, neglect of PH gov’t</h1>
-            <h2>By Rein Tarinay</h2>
-            <p>They emphasized that all migrant workers deserve dignity, fair compensation, and proper classification in their workplaces.</p>
-          </a>
-        </div>
-
-        <div class="newsarticle">
-          <a href="GenerationalStruggle.html">
-            <img src="Bulatlat-Thumbnail.jpg">
-            <h1>Generational struggle for agrarian reform</h1>
-            <h2>By Shan Kenshin Ecaldre</h2>
-            <p>Miriam has worn many uniforms: factory worker, admin officer, pastoral worker, local official, peasant organizer.</p>
-          </a>
-        </div>
-
-        <div class="newsarticle">
-          <a href="CaragaNickelMining.html">
-            <img src="pic-2.jpg">
-            <h1>Caraga faces environmental damage from nickel mining</h1>
-            <h2>By Aaron Ernest Cruz</h2>
-            <p>Despite the harm to the residents’ health and livelihood, they did not get any compensation.</p>
-          </a>
-        </div>
+      <div class="category-menu">
+         <a href="NewsSection.html"><b>NEWS</b></a>
+        <a href="entertainment.html"><b>ENTERTAINMENT</b></a>
+        <a href="SportSection.html"><b>SPORTS</b></a>
+        <a href="opinion.html"><b>OPINION</b></a>
+        <a href="cartoon.html"><b>CARTOONS</b></a>
+        <a href="FashionSection.html"><b>FASHION</b></a>
       </div>
 
-    </div>
-  </div>
-  
-<div class="footer">
-  <div class="footer-left">
-    <p>E-mail us at: thesteambird@steambirdmedia.com</p>
-  </div>
-  <div class="footer-center">
-    <p>©2019 The Steambird Media LLC. All rights reserved.</p>
-  </div>
-</div>
+      <br><br><br>
 
+      <div class="containerfrontpage">
+        <div class="frontpage">
+
+          <div class="row">
+              <a href="DodgersChampion.html">
+              <div id="newssection">
+                <div class="newsarticle">
+                  <img src="teapacks_eurovision_2007.png">
+                  <h1>The Smashing Pumpkins to perform on October 10</h1>
+                  <h2>By Michael Duarte</h2>
+                    <p style="font-weight: normal;">This is the first time that the American band is performing in the country.</p></a>
+                </div>
+                <div class="newsarticle">
+                  <img src="727569_20050202085513.jpg">
+                  <h1>Prank goes too far after -- Iraqi army searches for hostage who turns out to be a toy</h1>
+                  <h2>By Yitzhak Rabin</h2>
+                    <p style="font-weight: normal;">Soldiers scour a 300 sqkm area to find nothing</p></a>
+                </div>
+                <div class="newsarticle">
+                  <img src="MG_2598-1000x668.jpg">
+                  <h1>Military cameramen Danny Boylson releases documentary about the Doofas insurgency</h1>
+                  <h2>By Michael C. Wright</h2>
+                    <p style="font-weight: normal;">Boylson had been working for 3 years on the documentary.</p></a>
+                </div>
+            </div>
+
+              
+        </div>
+      </div>
 
 </body>
 </html>
