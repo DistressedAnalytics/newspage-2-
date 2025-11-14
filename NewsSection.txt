@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>News</title>
+  <link rel="stylesheet" type="text/css" href="hinterlaanden.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="logo"><a href="#"><img src="image.png"></a></div>
+    <a href="#" class="publication"><b>THE STEAMBIRD</b></a>
+    <div class="top-right">
+      <a href="#" class="search-icon"><img src="Search-Button-White-PNG.png"></a>
+    </div>
+  </div>
+
+  <div class="category-menu">
+    <a href="NewsSection.html"><b>NEWS</b></a>
+    <a href="#"><b>ENTERTAINMENT</b></a>
+    <a href="#"><b>SPORTS</b></a>
+    <a href="#"><b>OPINION</b></a>
+    <a href="#"><b>CARTOONS</b></a>
+    <a href="#"><b>FASHION</b></a>
+  </div>
+
+  <div class="header-square"></div>
+
+  <div class="row">
+    <div id="newssection">
+      <div class="newsarticle">
+        <a href="FilipinoCaregivers.html">
+          <img src="Thumbnail--840x473.png">
+          <h1>Filipino caregivers in the US decry labor exploitation, neglect of PH gov’t</h1>
+          <h2>By Rein Tarinay</h2>
+          <p>They emphasized that all migrant workers deserve dignity, fair compensation, and proper classification in their workplaces.</p>
+        </a>
+      </div>
+      <div class="newsarticle">
+        <a href="GenerationalStruggle.html">
+          <img src="Bulatlat-Thumbnail.jpg">
+          <h1>Generational struggle for agrarian reform</h1>
+          <h2>By Shan Kenshin Ecaldre</h2>
+          <p>Miriam has worn many uniforms: factory worker, admin officer, pastoral worker, local official, peasant organizer.</p>
+        </a>
+      </div>
+      <div class="newsarticle">
+        <a href="CaragaNickelMining.html">
+          <img src="pic-2.jpg">
+          <h1>Caraga faces environmental damage from nickel mining</h1>
+          <h2>By Aaron Ernest Cruz</h2>
+          <p>Despite the harm to the residents’ health and livelihood, they did not get any compensation.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="newssection">
+      <div class="newsarticle">
+        <a href="MalolosFarmers.html">
+          <img src="malolos-farmers-01-2048x1365.jpg">
+          <h1>Farmers, fisherfolk say Sagip Saka Act won’t address deep-rooted agricultural crisis</h1>
+          <h2>By Shannia Cabuello</h2>
+          <p>Drawing from their past and persistent appeals and efforts, Ramos defined the EO 101 “as a public relations measure pretending to respond to the plea of farmers.”</p>
+        </a>
+      </div>
+      <div class="newsarticle">
+        <a href="Red-TaggedJournalists.html">
+          <img src="6489590409700441675.jpeg">
+          <h1>CA declares no legal basis for civil forfeiture case vs red-tagged journalist, lay worker</h1>
+          <h2>By Franck Dick Rosete</h2>
+          <p>“The Court cannot countenance the hasty labelling of human rights advocates as terrorists and the speedy confiscation of their funds and property in the name of national security.”</p>
+        </a>
+      </div>
+      <div class="newsarticle">
+        <a href="UnregulatedQuarryingInCebu.html">
+          <img src="571358349_10162304055881304_2741158512823867142_n.jpg">
+          <h1>‘Man-made disaster’ | Typhoon Tino exposes deadly cost of unregulated quarrying in Cebu</h1>
+          <h2>By Bulatlat Contributors</h2>
+          <p>The Kilusang Magbubukid ng Pilipinas (KMP) said that the destruction left by Typhoon Tino, international name Kalmaegi, in Cebu is “not purely a natural disaster” but the result of decades of unregulated quarrying that weakened the province’s uplands and intensified flooding.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
